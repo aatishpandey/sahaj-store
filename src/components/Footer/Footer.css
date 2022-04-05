@@ -1,0 +1,23 @@
+.footer {
+    background-color: var(--dark-gray);
+    color: var(--white-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+    flex-wrap: wrap;
+}
+
+.footer-info {
+    padding: 4rem 0;
+}
+
+.footer-head {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.footer-text {
+    cursor: pointer;
+}
