@@ -1,0 +1,17 @@
+.product-list {
+    margin-top: 0;
+    column-gap: 4rem;
+    background-color: var(--white-color);
+}
+
+.card {
+    box-shadow: 0 0px 0rem var(--mr-light-background-color);
+    margin: 2rem 0;
+}
+
+.rating {
+    background-color: var(--rating-color);
+    color: var(--white-color);
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.6rem;
+}
