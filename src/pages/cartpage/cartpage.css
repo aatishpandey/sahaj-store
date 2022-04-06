@@ -1,0 +1,15 @@
+.card{
+    justify-content: center;
+}
+
+.cart-info{
+    background-color: transparent;
+}
+
+.cart-details{
+    background-color: var(--white-color);
+}
+
+.cart-info{
+    flex-wrap: wrap;
+}
