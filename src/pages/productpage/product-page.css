@@ -1,0 +1,17 @@
+@import url("../../styles/color.css");
+
+.main-product {
+    grid-template-columns: 20% auto;
+}
+
+.product-container {
+    background-color: var(--white-color);
+}
+
+.main-product{
+    padding: 0;
+}
+
+.product-list{
+    justify-content: space-evenly;
+}
