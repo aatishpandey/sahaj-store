@@ -1,7 +1,7 @@
 const AccountPage = () => {
     return (
         <>
-            <h1></h1>
+            <h1>Account Page</h1>
         </>
     )
 }

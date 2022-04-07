@@ -2,32 +2,32 @@ import { Link } from "react-router-dom"
 
 const Login = () => {
     return (
-        <div class="form-main">
-            <div class="cart-head">Login</div>
-            <form class="form nav--shadow">
-                <label for="email" class="card-head">
+        <div className="form-main">
+            <div className="cart-head">Login</div>
+            <form className="form nav--shadow">
+                <label htmlFor="email" className="card-head">
                     Enter Your Email
                 </label>
-                <input class="form-input" type="email" name="" id="email" />
-                <label for="pass" class="card-head">
+                <input className="form-input" type="email" id="email" />
+                <label htmlFor="pass" className="card-head">
                     Enter Your Password
                 </label>
-                <input class="form-input" type="password" name="" id="pass" />
+                <input className="form-input" type="password" id="pass" />
 
-                <div class="forgot-pass">
-                    <label for="remem" class="remem-fl">
-                        <input type="checkbox" name="" id="remem" />
-                        <p class="cart-text">Remember Me?</p>
+                <div className="forgot-pass">
+                    <label htmlFor="remem" className="remem-fl">
+                        <input type="checkbox" id="remem" />
+                        <p className="cart-text">Remember Me?</p>
                     </label>
-                    <div class="cart-text">Forgot Password</div>
+                    <div className="cart-text">Forgot Password</div>
                 </div>
 
-                <button class="btn btn-primary">
+                <button className="btn btn-primary">
                     Login
                 </button>
 
                 <Link to="/signup">
-                    <div class="cart-text cursor-pointer ">Create New Account?</div>
+                    <div className="cart-text cursor-pointer ">Create New Account?</div>
                 </Link>
             </form>
         </div>
@@ -35,4 +35,4 @@ const Login = () => {
     )
 }
 
-export {Login}
+export { Login }

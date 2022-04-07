@@ -1,10 +1,10 @@
 const Logout = () => {
     return (
-        <div class="logout-main">
-            <div class="logout-container">
-                <i class="far fa-check-square green-tick"></i>
-                <div class="h2">You have been logged out</div>
-                <div class="h4">Thank You</div>
+        <div className="logout-main">
+            <div className="logout-container">
+                <i className="far fa-check-square green-tick"></i>
+                <div className="h2">You have been logged out</div>
+                <div className="h4">Thank You</div>
             </div>
         </div>
 
