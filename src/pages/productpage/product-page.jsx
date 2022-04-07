@@ -4,7 +4,7 @@ import { BannerCard, Filters, useProduct, sortList, filterRating, filterSlider, 
 const ProductPage = () => {
     const { productList, loading } = useCart();
     const { state } = useProduct();
-    const { rating, sortBy, gender, sliderVal, category } = state;
+    const { rating, sortBy, sliderVal, category } = state;
     const sliderFilteredList = filterSlider(productList, sliderVal)
     const priceSortedList = sortList(sliderFilteredList, sortBy);
     const ratingFilteredList = filterRating(priceSortedList, rating);

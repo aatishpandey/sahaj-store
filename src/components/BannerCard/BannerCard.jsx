@@ -14,7 +14,7 @@ const BannerCard = ({ product, buttons = true }) => {
     return (
         <>
             {<div className="card" key={product.id}>
-                <img src={product.src} alt="product-image" />
+                <img src={product.src} alt="product" />
                 {product.newBadge && <div className="card-badge">New</div>}
 
                 <div className="card-info">

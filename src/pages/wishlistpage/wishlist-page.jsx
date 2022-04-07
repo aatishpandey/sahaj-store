@@ -4,7 +4,7 @@ import "./wishlist-page.css"
 
 const WishPage = () => {
     const { cartState } = useCart();
-    const { myWishlist, WishlistFlag } = cartState;
+    const { myWishlist } = cartState;
     return (
         <div class="cart-main">
             <div class="cart-info">

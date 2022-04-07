@@ -1,6 +1,4 @@
 const filterRating = (productList, rating) => {
-    // console.log(productList)
-    let finalList = [];
     if (rating.four === false &&
         rating.three === false &&
         rating.two === false &&
@@ -9,58 +7,17 @@ const filterRating = (productList, rating) => {
         return productList;
     }
     if (rating.four) {
-        const filteredList = productList.filter(item => {
-            // checking rating
-            if (item.rating >= 4) {
-                // checking if item already exists in final array
-                if (!finalList.some((finalItem) => item.id === finalItem.id)) {
-                    return item;
-                }
-            }
-        }
-        )
-        finalList = [...finalList, ...filteredList];
+        return productList.filter(item => item.rating >= 4)
     }
     if (rating.three) {
-        const filteredList = productList.filter(item => {
-            // checking rating
-            if (item.rating >= 3) {
-                // checking if item already exists in final array
-                if (!finalList.some((finalItem) => item.id === finalItem.id)) {
-                    return item;
-                }
-            }
-        }
-        )
-        finalList = [...finalList, ...filteredList];
+        return productList.filter(item => item.rating >= 3)
     }
     if (rating.two) {
-        const filteredList = productList.filter(item => {
-            // checking rating
-            if (item.rating >= 2) {
-                // checking if item already exists in final array
-                if (!finalList.some((finalItem) => item.id === finalItem.id)) {
-                    return item;
-                }
-            }
-        }
-        )
-        finalList = [...finalList, ...filteredList];
+        return productList.filter(item => item.rating >= 2)
     }
     if (rating.one) {
-        const filteredList = productList.filter(item => {
-            // checking rating
-            if (item.rating >= 1) {
-                // checking if item already exists in final array
-                if (!finalList.some((finalItem) => item.id === finalItem.id)) {
-                    return item;
-                }
-            }
-        }
-        )
-        finalList = [...finalList, ...filteredList];
+        return productList.filter(item => item.rating >= 1)
     }
-    return finalList;
 }
 
 export { filterRating }

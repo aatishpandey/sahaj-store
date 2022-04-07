@@ -11,7 +11,7 @@ const WishlistCard = ({ product }) => {
     return (
         <div className="card card-horizontal" key={product.id}>
             <div className="card-hr-details">
-                <img src={product.src} alt="product-image" />
+                <img src={product.src} alt="product" />
                 {product.newBadge && <div className="card-badge">New</div>}
 
                 <div className="card-info">
