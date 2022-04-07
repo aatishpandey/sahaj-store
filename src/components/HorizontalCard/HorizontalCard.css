@@ -1,0 +1,19 @@
+.card-horizontal{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 0;
+}
+
+.cart-main{
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+}
+
+.cart-info{
+    margin-top: 0;
+}
+
+.cart-details {
+    width: 100%;
+    height: fit-content;
+}
