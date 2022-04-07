@@ -1,6 +1,5 @@
 import { HorizontalCard } from "../../components/HorizontalCard/HorizontalCard"
 import { useCart } from "../../contexts/cartContext"
-import { useEffect, useReducer } from "react";
 import "./cartpage.css"
 
 const CartPage = () => {

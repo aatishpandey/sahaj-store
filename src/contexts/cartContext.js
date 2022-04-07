@@ -17,7 +17,7 @@ const CartProvider = ({ children }) => {
         if (!loading) {
             setProductList(apiRes.products);
         }
-    }, [loading])
+    },[apiRes,loading])
 
     return (
         <CartContext.Provider value={{ cartState, cartDispatch, productList, loading }}>

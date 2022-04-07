@@ -15,7 +15,7 @@ const useAxios = (path) => {
                 console.log(err + "error")
             }
         })()
-    }, [])
+    })
     return ({ apiRes, loading });
 }
 
